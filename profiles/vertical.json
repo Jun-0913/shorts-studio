@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "name": "plain-vertical",
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "background": "#000000",
+    "fps": "24000/1001"
+  },
+  "video": {
+    "x": 0,
+    "y": 504,
+    "width": 1080,
+    "height": 912,
+    "focus_x": 0.5,
+    "focus_y": 0.5,
+    "zoom": 1.0,
+    "tracking_mode": "fixed",
+    "tracking": {
+      "sample_fps": 6.0,
+      "output_fps": 2.0,
+      "dead_zone": 0.03,
+      "smoothing_seconds": 0.8,
+      "max_speed_per_second": 0.1,
+      "scene_threshold": 0.05
+    }
+  },
+  "title": {
+    "font_path": "assets/fonts/noto-sans-kr/NotoSansKR-VariableFont_wght.ttf",
+    "font_size": 92,
+    "font_variation": "Black",
+    "fill": "#FFFFFF",
+    "center_x": 540,
+    "center_y": 372,
+    "line_spacing": 12,
+    "max_width": 820
+  },
+  "subtitles": {
+    "font_name": "Noto Sans KR",
+    "font_path": "assets/fonts/noto-sans-kr/NotoSansKR-VariableFont_wght.ttf",
+    "font_sha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+    "font_size": 68,
+    "max_width": 940,
+    "max_lines": 2,
+    "allow_orphans": true,
+    "primary_color": "&H00FFFFFF",
+    "outline_color": "&H00141414",
+    "back_color": "&H80000000",
+    "bold": true,
+    "italic": true,
+    "scale_x": 92,
+    "scale_y": 100,
+    "outline": 5,
+    "shadow": 1,
+    "margin_l": 60,
+    "margin_r": 60,
+    "margin_v": 130
+  },
+  "encoding": {
+    "video_codec": "libx264",
+    "video_bitrate": "8M",
+    "b_frames": 0,
+    "audio_codec": "aac",
+    "audio_bitrate": "192k"
+  }
+}

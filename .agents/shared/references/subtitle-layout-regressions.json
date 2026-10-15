@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "protected_phrases": [
+    "한 시간 반",
+    "할 수 있습니다",
+    "말을 안 하고",
+    "첫 번째 이야기"
+  ],
+  "cases": [
+    {
+      "id": "complete-thought",
+      "text": "첫 번째 이야기는 한 시간 반 동안 이어졌습니다.",
+      "approved_pages": [
+        [
+          "첫 번째 이야기는",
+          "한 시간 반 동안 이어졌습니다."
+        ]
+      ],
+      "protected_phrases": [
+        "첫 번째 이야기",
+        "한 시간 반"
+      ]
+    }
+  ]
+}
